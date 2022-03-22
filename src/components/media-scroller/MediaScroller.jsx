@@ -14,7 +14,7 @@ const MediaScroller = () => {
 
         {slider_products.map(product =>
             <MediaElement key={product.id} product={product}>
-                <img src={product.imageUrl}/>
+                <img src={product.imageUrl} alt=''/>
                 <NameContainer>{product.name}</NameContainer>
                 <PriceContainer>&#8358;{product.price}.00</PriceContainer>
             </MediaElement>
